@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Blog Website</title>
+    <script
+      src="https://kit.fontawesome.com/9bc491e874.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo">Blog</span>
+      <div class="icon">
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <i class="fa-solid fa-xmark" id="close"></i>
+      </div>
+      <nav>
+        <ul id="menu-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+      <form action="" id="search-box">
+        <input type="search" id="search" />
+        <label class="fa-solid fa-magnifying-glass"></label>
+      </form>
+    </header>
+    <main>
+      <section class="blog" id="home">
+        <h1>welcome</h1>
+        <h2>Blog Website</h2>
+        <p>welcome to the gaming world</p>
+        <a href="#2">Read More</a>
+      </section>
+      <section class="column" id="blogs">
+        <section class="left-column">
+          <article class="card">
+            <h2>Valorant</h2>
+            <h5>June 2, 2020</h5>
+            <img src="pictures/pic2.jpg" />
+            <p>
+              Riot Games’ tactical first-person 5v5 shooter proved to be an
+              instant hit when it got released in June 2020. Although the game
+              takes a few cues from Counter-Strike: Global Offensive and hero
+              shooters like Overwatch, the availability of heroes across
+              different game modes including Unranked, Spike Rush, and
+              Deathmatch makes it worth a shot.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Forza</h2>
+            <h5>May 17, 2009</h5>
+            <img src="pictures/pic3.jpg" />
+            <p>
+              Forza Horizon is based around the Horizon Festival, a festival of
+              music and motor racing. The player's goal at the festival is to
+              defeat Darius Flynt and earn the title of Horizon Champion. As
+              players rank up by winning events, they earn points towards their
+              current wristband, leading to higher tiers of competition
+            </p>
+          </article>
+          <article class="card">
+            <h2>Asphalt 9 Legends</h2>
+            <h5>26 February 2018</h5>
+            <img src="pictures/pic4.jpg" />
+            <p>
+              A limited-time showcase event will be held in Asphalt 9. It's your
+              opportunity to travel around the world as the new season's name
+              suggests and take on international tracks with brand-new cars. You
+              will also be able to earn rewards for completing simple
+              challenges.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Eternium</h2>
+            <h5>Aug 21, 2023</h5>
+            <img src="pictures/pic5.jpeg" />
+            <p>
+              Eternium is an amazingly fun and beautifully crafted Action RPG,
+              reminiscent of the great classics. Eternium stands out from other
+              mobile Action RPGs by its effortless “tap to move” and innovative
+              “swipe to cast” controls, and its player-friendly “no paywalls,
+              never pay to win” philosophy.
+            </p>
+          </article>
+          <article class="card">
+            <h2>Fifa 23</h2>
+            <h5>September 30, 2022.</h5>
+            <img src="pictures/pic6.jpg" />
+            <p>
+              FIFA 23 is a football video game published by EA Sports. It is the
+              30th installment in the FIFA series that is developed by EA
+              Sports, the final installment under the FIFA banner, and released
+              worldwide ...
+            </p>
+          </article>
+        </section>
+        <section class="right-column">
+          <div class="related-topics">
+            <h5>Related Topics</h5>
+            <div class="topics">
+              <span>#gamedev</span>
+              <span>#rpg</span>
+              <span>#board games</span>
+              <span>#Wow</span>
+              <span>#manosphere</span>
+              <span>#esports</span>
+              <span>#minecraft</span>
+              <span>#eve</span>
+              <span>#See all topics</span>
+            </div>
+          </div>
+          <div class="gaming">
+            <span>gaming</span>
+            <hr style="height: 2px; color: red; width: 100%" />
+            <div class="gaming-tips">
+              <img src="pictures/pic7.png" />
+              <p>
+                Major upgrades coming for Roblox: New AI chatbot, open
+                marketplace, and more announced at RDC
+              </p>
+            </div>
+            <div class="gaming-tips">
+              <img src="pictures/pic8.jfif" />
+              <p>
+                5 best games launched in 2023: Legend Of Zelda: Tears Of The
+                Kingdom, Diablo 4 and more
+              </p>
+            </div>
+            <div class="gaming-tips">
+              <img src="pictures/pic9.jfif" />
+              <p>
+                GTA 6: Release date, gameplay, characters - know everything
+                about Grand Theft Auto 6
+              </p>
+            </div>
+            <div class="gaming-tips">
+              <img src="pictures/pic10.jpg" />
+              <p>
+                GTA V Cheat Codes 2023: Check cheats for PC, PlayStation, and
+                Xbox
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="links">
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="contact" id="contact">
+        <div class="contact-info">
+          <div class="contact-image">
+            <img src="pictures/pic12.png" />
+          </div>
+          <div class="contact-content">
+            <h2>Contact us</h2>
+            <h3>Name</h3>
+            <input type="text" />
+            <h3>Message</h3>
+            <textarea cols="30" rows="5"></textarea>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
